@@ -1,7 +1,26 @@
 aid: rabbit-mobility
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rabbit-mobility.png
 name: Rabbit Mobility
-description: Rabbit Mobility is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Rabbit Mobility (Rabbit) is a clean-tech micro-mobility sharing company
+  operating in Cairo and Giza, Egypt. Through its iOS and Android mobile apps, Rabbit
+  offers shared standing electric scooters and electric bikes with two service models:
+  on-demand "Unlock & Go" rides and multi-day "Day Rentals" that include delivery.
+  The company reports covering more than one million kilometers and saving over 50
+  tons of CO2 emissions. Rabbit is a portfolio company of 500 Global. As a consumer
+  mobile-app business, Rabbit publishes no public developer API, SDKs, or API
+  documentation at this time; this profile is maintained in the API Evangelist
+  network for discovery and enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/rabbit-mobility/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Micromobility
+- Transportation
+- Electric Scooters
+- Mobility
+- Ride Sharing
+- Clean Tech
+- Egypt
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rabbit-mobility-domain-security.yml
 - type: Website
   url: https://rabbit-app.com
+- type: PrivacyPolicy
+  url: https://rabbit-app.com/privacy-policy
+- type: TermsOfService
+  url: https://rabbit-app.com/terms-and-conditions
+- type: Support
+  url: https://rabbit-app.com/#contact
+- type: Blog
+  url: https://rabbit-app.com/blog
+- type: LinkedIn
+  url: https://www.linkedin.com/company/rabbitmobility
+- type: Facebook
+  url: https://www.facebook.com/rabbitmobility
+- type: Instagram
+  url: https://www.instagram.com/rabbit_mobility
+- type: TikTok
+  url: https://www.tiktok.com/@rabbitmobility
+- type: AppStore
+  url: https://apps.apple.com/us/app/rabbit-scooters/id1468767626
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.Rabbit.rabbitApp
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
