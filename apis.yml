@@ -48,7 +48,6 @@ tags:
 - Transportation
 - Electric Scooters
 - Mobility
-- Ridesharing
 - Cleantech
 - Egypt
 tags_raw:
@@ -57,7 +56,6 @@ tags_raw:
 - Transportation
 - Electric Scooters
 - Mobility
-- Ride Sharing
 - Clean Tech
 - Egypt
 apis: []
@@ -96,3 +94,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Ridesharing
